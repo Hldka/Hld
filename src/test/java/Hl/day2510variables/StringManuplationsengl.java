@@ -5,41 +5,7 @@ import java.util.Scanner;
 
 public class StringManuplationsengl {
     public static void main(String[] args) {
-        /*
 
-
-
-
-
-7) Create a String variable and print all characters except the first character on the console. Example:If the String
-is ‘Java’ you should print ‘ava’ on the console.
-8) Create a String variable and print all characters except the last character on the console in uppercases.
-Example:If the String is ‘Java’ you should print ‘JAV’ on the console.
-9) Create a String variable and print all characters except the first character and the last character on the console in uppercases.
-Example:If the String is ‘Java’ you should print ‘AV’ on the console.
-10) Type code to check if a String has just a single space character any position in the middle Example: For ‘Ali Can’ your code should print false on the console
-For ‘ Ali Can ’ your code should print false on the console
-For ‘ Ali Can ’ your code should print false on the console For ‘Ali Can’ your code should print true on the console
-11) Type code to check if a String does not have any space character at the beginning and at the end?
-Example: For ‘ Ali ’ your code should print false on the console For ‘Ali’ your code should print true on the console
-12) Type code to check if a String has an uppercase initial and dot at the end. Example: For ‘Ali’ your code should print false on the console
-For ‘ali.’ your code should print false on the console
-For ‘ Ali. ’ your code should print false on the console For ‘Ali.’ your code should print true on the console
-For ‘ALI.’ your code should print true on the console
-
-13) Type code to check if a password is valid or not for the following conditions; Password must have at least 8 characters different from space character
-Password must have at least 1 symbol
-Example: For ‘A2b!’ your code should print false on the console
-For ‘A2b3cdef ’ your code should print false on the console For ‘!1a23b4’ your code should print false on the console For ‘!1a23b4?es’
-your code should print true on the console For ‘! a b 3 k’ your code should print false on the console
-14) Type code to check if a String has a specific single character or not in three different ways.
-15) String shirtPrice = ‘$12.99’; String bookPrice = ‘$35.99’;
-Type code to find the sum of the shirt and book prices.
-
-16) Type code to get initials of the first name and the last name of a given name. Middle name is out of scope.
-Example: Tom Hanks ==> TH, Mary Star ==> MS
-17) Type a code to find the number of punctuation marks used in a String.
-         */
         // 1) Create a String variable for city names which have just a single word.
         //Print the city name with the initial is in uppercase and all the other characters
         Scanner scan =new Scanner(System.in);
