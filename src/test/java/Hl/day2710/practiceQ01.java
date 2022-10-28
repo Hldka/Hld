@@ -13,7 +13,11 @@ ikilileribul(arr,10);
 
 
     } public static void ikilileribul (int []arr,int number){
-        for (int i=0;i< arr.length;i++){
+        for (int i=0;i< arr.length;i++){for (int j=0;j< arr.length;j++){
+            if (i+j==10){
+                System.out.println( i+" +"+j+" ="+(i+j));
+            }
+        }
 
         }
 
