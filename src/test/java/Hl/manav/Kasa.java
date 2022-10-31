@@ -41,7 +41,9 @@ public class Kasa {
       }while (!tercih.equalsIgnoreCase("q"));
 
 
-    }public static void  kasa(String sebze ,double miktar){
+    }public static void müsterisecimi(){}
+
+    public static void  kasa(String sebze ,double miktar){
         switch (sebze){
             case "1":
                 System.out.println(miktar*5);
