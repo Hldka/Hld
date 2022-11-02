@@ -5,7 +5,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-public class sonuc {static List<String> urunListesi = new ArrayList<>(Arrays.asList("patates - urun kodu : 1","limon - urun kodu : 2","kivi - urun kodu : 3",
+public class sonuc {
+    static List<String> urunListesi = new ArrayList<>(Arrays.asList("patates - urun kodu : 1","limon - urun kodu : 2","kivi - urun kodu : 3",
         "biber - urun kodu : 4", "patlican - urun kodu : 5" ));//urunlerin atanacagi bos list ve diger methodlarda da kullanabilmek icin instance yaptik.
     static List<Double> urunFiyatlari = new ArrayList<>(Arrays.asList(5.0,7.5,1.3,8.7,9.2));//urun fiyatlarinin atanacagi bos list ve instance variable.
     static double toplamOdenecekTutar;//instance variable
