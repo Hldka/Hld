@@ -21,7 +21,7 @@ b) Son basamak 5 den küçükse, yuvarlama işlemi: “Son basamağı bir alt on
   Örnek: Ay numarası 9 ise konsolda kodunuz Eylül Ekim Kasım Aralık olacaktır.
   8)Bir String ‘ in palindrom olup olmadığını kontrol etmek için kod yazınız.
   Bir String, tersi ile aynıysa, buna palindrom denir. Örneğin; “anna”, “123321” palindromlardır
-  9)0'un
+  9)10'un
 altındaki asal sayıların toplamı 2 + 3 + 5 + 7 = 17'dir.
 İki milyonun altındaki tüm asal sayıların toplamını bulun.
 
@@ -46,10 +46,12 @@ altındaki asal sayıların toplamı 2 + 3 + 5 + 7 = 17'dir.
 20 69 36 41 72 30 23 88 34 62 99 69 82 67 59 85 74 04 36 16
 20 73 35 29 78 31 90 01 74 31 49 71 48 86 81 16 23 57 05 54
 01 70 54 71 83 51 54 69 16 92 33 48 61 43 52 01 89 19 67 48
+
 Bu sayıların çarpımı 26 × 63 × 78 × 14 = 1788696'dır.
 
 20×20 ızgarasında aynı yönde (yukarı, aşağı, sol, sağ veya çapraz) dört bitişik sayının en büyük çarpımı nedir?
 
 
      */
+
 }
