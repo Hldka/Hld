@@ -2,11 +2,7 @@ package Hl.day0511;
 
 public class Questions {/*
 
-
-
-
-
-
+// 999999
 
 8)
 1000 basamaklı sayının en büyük çarpımı olan bitişik dört basamağı 9 × 9 × 8 ×
