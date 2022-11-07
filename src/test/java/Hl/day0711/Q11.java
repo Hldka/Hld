@@ -26,8 +26,20 @@ Bir milyonun altındaki hangi başlangıç sayısı en uzun zinciri oluşturur?
 NOT: Zincir başladıktan sonra terimler bir milyonun üzerine çıkabilir.
      */
     public static void main(String[] args) {
-        for (int i=13;i<0;i--){
+        int y=13;
+       do {y=cift(y);
+           System.out.print(y+" ");
 
-        }
+       }while (y!=1);
+
+
+
+
+    }public static int cift(int a){
+      if (a%2==0){
+      return a/2;}else return a*3+1;
+
     }
+
+
 }
