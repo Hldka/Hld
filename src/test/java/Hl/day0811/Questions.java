@@ -18,6 +18,7 @@ sağ alt köşeye giden tam 6 yol vardır.
 2¹⁵ = 32768 ve rakamları toplamı 3 + 2 + 7 + 6 + 8 = 26'dır.
 
  2¹⁰⁰⁰ sayısının rakamları toplamı kaçtır?
+<<<<<<< HEAD
 
 
  // 1- bir Account sınıfı oluşturunuz, fieldları accountNumber ve balance (bakiye).
@@ -26,5 +27,7 @@ sağ alt köşeye giden tam 6 yol vardır.
         // 4- Account sınıfına withdraw (ParaÇıkar) metodu ekleyiniz.
         // 5- withdraw de 5000 inin üzerine Günlük limiti aştınız uyarısı verelim
         // 6- main metodunda  account oluşturarak ihtimalleri deneyiniz.
+=======
+>>>>>>> origin/main
      */
 }
