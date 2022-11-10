@@ -13,7 +13,7 @@ public class Qschleife1 {
 Fu ̈r jede der Anforderungen soll eine eigene Schleife geschrieben werden.
      */
     public static void main(String[] args) {
-
+/*
         //Es sollen alle geraden Zahlen zwischen 35 und 75 ausgegeben werden.
         for (int i=35;i<75;i++){if (i%2==0){
             System.out.print(i+" ");
@@ -24,22 +24,29 @@ Fu ̈r jede der Anforderungen soll eine eigene Schleife geschrieben werden.
             if (i%9==0||i%17==0){
                 System.out.print(i+" ");
             }
-        }
+        }*/
 //(while-Schleifen)
 //• Schreiben Sie eine while-Schleife die 20 mal “Hallo Welt“ ausgibt. •A ̈ndernSiedieSchleifesoab,dasssieabwechselnd“HalloWelt“und“Ichbinim
 //Javakurs“ ausgibt.
-
+/*
 
         int i=0;
 
-        while (i<=20){ String s="Hallo Welt ";
-            String s1="Ich bin im JavaKurs";
+        while (i<=20){
+            System.out.println("Hello Welt");
+            if (i==20){for (int k=0;k<20;k++){if (k%2==0){
+                System.out.println("Hallo Welt ");
+            }else {
+                System.out.println("Ich bin im JavaKurs");}}}
 
 
-            System.out.println(s+" "+s1);
+
+
 
 
             i++;}
+            */
+
 /*
 Zu Beginn der Aufgabe wird u ̈ber einen Scanner eine Zahl eingelesen und in der Variable “zahl “ gespeichert. Schreiben sie Schleifen, welche die folgenden Aufgaben erfu ̈llen:
 • Geben sie eine Reihe von Sternen (*) auf der Konsole aus. Die Anzahl der Sterne soll dem Wert von zahl entsprechen.
@@ -49,8 +56,8 @@ Zu Beginn der Aufgabe wird u ̈ber einen Scanner eine Zahl eingelesen und in der
         Scanner scan=new Scanner(System.in);
         System.out.println("Bitte eien Zahl geben");
         int zahl= scan.nextInt();
-        for (int m=1;m<=zahl;m++){char ch='*';
-        if (m%16==0){ch='+';}
+        for (int m=1;m<=zahl;m++){String ch="*";
+        if (m%16==0){ ch="*+*";}
             System.out.print(ch+" ");
 
         }
