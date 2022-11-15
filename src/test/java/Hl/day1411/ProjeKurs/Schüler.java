@@ -44,9 +44,10 @@ public class Schüler {
     }
 
     public void setAge(int age) { if (age>15)
-        throw  new RuntimeException("Bitte achten Sie Age ,es muss 15");
-        this.age = age;
+    {throw  new RuntimeException("Bitte achten Sie Age ,es muss 15");
+
     }
+        this.age = age;}
 
     @Override
     public String toString() {
