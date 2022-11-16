@@ -12,9 +12,6 @@ public class Map { /*
     Çıktı--> sonuc = 44.69
      */
     public static void main(String[] args) {
-
-
-
 setOlustur();
         System.out.println(sayilar);
         toplaminiAl();
@@ -22,8 +19,11 @@ setOlustur();
 
 
 
-    } static HashSet<Double> sayilar=new HashSet<>();
-   static void setOlustur(){
+
+
+
+    } public static HashSet<Double> sayilar=new HashSet<>();
+  public static void setOlustur(){
 
 sayilar.add(3.23);
 sayilar.add(3.10);
@@ -32,7 +32,8 @@ sayilar.add(10.12);
 sayilar.add(23.12);
 
 
-    }static double toplaminiAl(){
+    } public static  double toplaminiAl(){
+
        double sum=0;
         for (Double w:sayilar) {
             sum=sum+w;
