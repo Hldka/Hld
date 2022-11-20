@@ -1,4 +1,4 @@
-package Hl.day2011practice;
+package Hl.day2010.day2011practice;
 
 import java.util.Scanner;
 
