@@ -11,5 +11,6 @@ public class Arrays01 {
         arr2[3]=15;
         System.out.println(Arrays.toString(arr2));
         System.out.println(arr2.length);
+       
     }
 }
