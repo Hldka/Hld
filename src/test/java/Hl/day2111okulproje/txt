@@ -1,0 +1,32 @@
+BIR OKUL YÖNETÍM PLATFORMU KODLAYINIZ.
+1.Bu programda, Ogrenci ve Ogretmen Kayatlara ile ilgili iglemler yapalabilmelidir.
+Kayatlarda su bilgiler olabilmelidir.
+   Ögretmen: Ad-Soyad, Kimlik No, yas, bölum, ve sicil No bilgileri içermelidir.
+   Ögrenci: Ad-Soyad, kimlik No, yas, numara, sinif bilgileri içermelidir.
+2. Program basladiginda Kullanacaya, Ögretmen ve Ögrenci islemlerini seçebilmesi igin
+Asadadaki gibi bir menü gösterilsin.
+
+
+
+ÖGRENCI VE ÖGRETMEN YÖNETIM PANELI
+ニニニニニニニニニコニニニニニニニニニニニニニニニニニニニニニニニニニニ
+1- OGRENCI ISLEMLERI
+2- OGRETMEN iSLEMLERI
+Q - CIKIS
+3. Seçilen Kisi türüne göre asagadaki islemleri gösteren bir alt menu daha gosterilsin.
+
+
+ニニニニニニニニニニニニニニニニニニニニ ISLEMLER ニニニニニニニニニニニニニニ
+1-EKLEME
+2-ARAMA
+3-LISTELEME
+4-SILME
+5-ANA MENU
+Q-CIKIS
+
+Seciminiz
+4. islemler menüsü secilen islme göre bir önceki menüde secilen kisi türü ile ilgli ekleme, kimlik no
+ile silme ve arama, var olan tüm kisileri listleme gibi islemler yapabilmektedir
+buub yaninda bir üst menüye dönme veya cikis islemleri de yapilabilmelidir.
+Not: projeyi yaparken mümkün olan en kisa kodlari yazmak icin nesne yönelimli programlamanin bize sagladigi
+ imkanlari kullanmaya dikkat ediniz
