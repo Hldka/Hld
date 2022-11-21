@@ -1,10 +1,10 @@
 package Hl.day2111okulproje;
 
-public class ogrenci extends Kisi {
+public class Ogrenci extends Kisi {
     private String ogrenciNo;
     private String sinif;
 
-    public ogrenci(String adSoyAd, String kimlikNo, int yas,String ogrenciNo,String sinif) {
+    public Ogrenci(String adSoyAd, String kimlikNo, int yas, String ogrenciNo, String sinif) {
         super(adSoyAd, kimlikNo, yas);
         this.ogrenciNo=ogrenciNo;
         this.sinif=sinif;
