@@ -6,18 +6,7 @@ import java.util.List;
 import java.util.Set;
 
 public class Düzensizkatilim {
-    /*
-    AltugHeper
-Cagatay Atasever
-Hasan F.
-Mehmet Y
-Murat emin K
-Selcuk Sahin
-Hatice S.
-Ali osman Zengin
-Veysel
-Mr. Ismail
-     */
+
     public static void main(String[] args) {
 
         HashMap<String, String> eslesme = new HashMap<>();
