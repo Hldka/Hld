@@ -28,7 +28,7 @@ public class Methot extends Tanimlar {
             }
         }while (isFlag());
     }
-
+int counter=0;
     private void kayitSilme() {
         System.out.println("silmek istediginiz kisinin id numarasini giriniz...");
         String yeniid=scan.next();
@@ -36,7 +36,15 @@ public class Methot extends Tanimlar {
             System.out.println();
             getSetListe().remove(yeniid);
 
-        }else System.out.println(" bu id sahip bir kullanici bulunmamaktadir...");
+        }else {
+            System.out.println(" bu id sahip bir kullanici bulunmamaktadir...");
+        counter++;
+            if (counter==3){
+                System.out.println("ust üste 3 defa yanlis girdiniz...");
+                selectOption();
+            }else
+        kayitSilme();
+        }
 
     }
 
