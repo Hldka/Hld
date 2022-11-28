@@ -6,13 +6,14 @@ public class codingbad {
     //
     public static void main(String[] args) {
         System.out.println(backAround("cat"));
+        System.out.println(or35(35));
     }public static String backAround(String str) {
         String last = str.substring(str.length() - 1);
         return last + str + last;
     }
     //Return true if the given non-negative number is a multiple of 3 or a multiple of 5.
     // Use the % "mod" operator -- see Introduction to Mod
-    public boolean or35(int n) {
+    public static boolean or35(int n) {
         if (n>0){  if (n%3==0 || n%5==0){return true;}else return false;
 
     }else return false;
@@ -26,6 +27,10 @@ public class codingbad {
         if (temp1<0 ||temp2<0){return true;}else if (temp1>100 || temp2>100){return true;}else return false;
 
     }
+
+
+
+
 }
 
 
