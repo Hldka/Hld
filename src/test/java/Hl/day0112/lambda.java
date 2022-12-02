@@ -1,8 +1,21 @@
 package Hl.day0112;
 
-public class lambda { // S1:1 den 30 kadar olan sayilari (30 dahil degil) 1 2 3 .... seklinde siralayalim (for loopsuz)
+import java.util.stream.IntStream;
+
+public class lambda {
+    public static void main(String[] args) {
+        birden30olanSayilariSirala();
+
+
+    }
+
+
+
+    // S1:1 den 30 kadar olan sayilari (30 dahil degil) 1 2 3 .... seklinde siralayalim (for loopsuz)
     //range(int startInclusive, int endExclusive)
     public static void birden30olanSayilariSirala() {
+        IntStream.rangeClosed(1,30).forEach(t-> System.out.print(t+" "));
+
 
     }
 
