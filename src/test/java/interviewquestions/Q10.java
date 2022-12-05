@@ -1,0 +1,25 @@
+package interviewquestions;
+
+import java.util.List;
+import java.util.Scanner;
+
+public class Q10 {
+     /*
+    Bir String içindeki kelimeleri birer birer sayın
+String is "Ali came to school and Ayse came to school"
+	  Ali=1, came=2, to=2, school=2, and=1, Ayse=1
+     */
+     public static void main(String[] args) {
+         Scanner scan =new Scanner(System.in);
+         System.out.println(" bir cümle giriniz...");
+         String str= scan.nextLine();
+     }public static void kelimaSayBul(String str){
+         int count=0;
+        String[]str1= str.split(" ");
+        for (String w:str1) {  if (w==w){count++;}else System.out.println(w+"= 1 ");
+
+        }
+
+    }
+
+}
